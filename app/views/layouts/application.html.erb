@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<a href="/">Bulletin Board</a>
-
-<hr>
   <head>
     <title>Bulletin Board 1</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,6 +12,13 @@
   </head>
 
   <body>
+<a href="/">Bulletin Board</a>
+<hr>
+
+<div><%= notice %></div>
+<div><%= alert %></div>
+
+<hr>
     <%= yield %>
   </body>
 </html>
